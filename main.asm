@@ -68,7 +68,7 @@ main:
         
     BCF T0CS   ; Enable timer 0
     BCF TMR0IE ; Disable timer 0 interrupt
-    BCF PS0    ; Set prescaler to 1:16
+    BCF PS0    ; Set prescaler to 1:2
     BCF PS1
     BCF PS2
     BCF PSA    ; Enable prescaler
